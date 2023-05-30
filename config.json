@@ -1,0 +1,22 @@
+{
+    "Kafka": {
+        "BrokerURLs": [],
+        "DialerTimeout": 10,
+        "MinBytes": 1000,
+        "MaxBytes": 32000000,
+        "ReadTimeout": 40,
+        "Verbose": true,
+        "Topic": "",
+        "ConsumerGroup":"",
+        "SASL" : {
+            "User" : "",
+            "Password" : ""
+        }
+    },
+    "DB": {
+        "ConnectionString": "host=10.3.41.21 port=5432 user=invest dbname=invest password=BBjb9GnH60qVwhBy sslmode=disable",
+        "LogMode": true,
+        "MigrationMode": true
+    },
+    "ProcessingFinishedTimeoutMS": 90
+}
